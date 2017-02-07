@@ -1,0 +1,11 @@
+body{
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+.categories {
+  background-image: url("../img/catalog/fon.jpg") ;
+}

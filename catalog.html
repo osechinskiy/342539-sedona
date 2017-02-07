@@ -22,7 +22,7 @@
             <li>
               <a href="#">Карта штата</a>
             </li>
-            <li>
+            <li class="activ">
               <a href="#">Гостиницы</a>
             </li>
           </ul>
@@ -31,38 +31,33 @@
     </header>
 
     <main class="container">
-      <div class="categories">
-        <img src="img/catalog/fon.jpg" width="1200" height="800" alt="categories">
-        <div class="selection-box">
-          <h3>Инфраструктура:</h3>
+        <div class="categories">
           <form class="categories-item" action="catalog.html" method="post">
+            <div class="selection-box">
+        <h3>Инфраструктура:</h3>
             <input id="pool" type="checkbox" checked>
             <label for="pool">Бассейн</label>
             <input id="parking" type="checkbox">
             <label for="parking">Парковка</label>
             <input id="wifi" type="checkbox">
             <label for="wifi">WI-FI</label>
-          </form>
-        </div>
-        <div class="selection-box">
-          <h3>Тип жилья:</h3>
-          <form class="categories-item" action="catalog.html" method="post">
+            </div>
+            <div class="selection-box">
+            <h3>Тип жилья:</h3>
             <input id="hostle" type="checkbox" checked>
             <label for="hostle">Гостиница</label>
             <input id="motel" type="checkbox" checked>
             <label for="motel">Мотель</label>
             <input id="apartments" type="checkbox" checked>
             <label for="apartments">Апартаменты</label>
-          </form>
-        </div>
-
-        <div class="runner">
-          <h3>Стоимость в сутки (Р):</h3>
-          <form class="runner-item" action="index.html" method="post">
+          </div>
+          <div class="selection-box">
+            <h3>Стоимость в сутки (Р):</h3>
             <input type="number" step="1">
             <input type="number" step="1">
             <input type="range" min="0" max="100" step="1" value="50">
             <button type="button" name="button">Показать</button>
+          </div>
           </form>
         </div>
       </div>
@@ -71,9 +66,9 @@
         <div class="sorting-types">
           <div class="sorting-types-left">
             <h2>Найдено: 3</h2>
-            <ul>
               <p>Сотрировка:</p>
-              <li>
+            <ul>
+              <li class="activ">
                 <a href="#">По цене</a>
               </li>
               <li>
@@ -84,56 +79,62 @@
               </li>
             </ul>
         </div>
-        <div class="sorting-types-right">
-          <ul>
+          <ul class="sorting-types-right">
             <li>
-              <a href="#"></a>
+              <a href="#">
               <img src="" alt="top">
+              </a>
             </li>
             <li>
-              <a href="#"></a>
+              <a href="#">
               <img src="" alt="down">
+              </a>
             </li>
           </ul>
-        </div>
       </div>
+      <div class="founded-types">
       <div class="founded-types-left">
         <img src="img/catalog/layer 21.jpg"  width="135" height="90" alt="hostle">
-        <h2>Amara resort & spa</h2>
+        <a href="#"><h2>Amara resort &amp; spa</h2></a>
         <p>Гостиница</p>
         <p>от 4000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
+        <a href="#" type="btn">Подробнее</a>
+        <a href="#" type="btn">Забронировать</a>
       </div>
       <div class="founded-types-right">
         <img src="img/catalog/4.png"  width="89" height="17" alt="rating">
         <p>Рейтинг 8,5</p>
       </div>
+    </div>
+    <div class="founded-types">
       <div class="founded-types-left">
         <img src="img/catalog/layer 22.jpg"  width="135" height="90" alt="hostle">
-        <h2>Desert quail inn</h2>
+        <a href="#"><h2>Desert quail inn</h2></a>
         <p>Мотель</p>
         <p>от 3000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
+        <a href="#" type="btn">Подробнее</a>
+        <a href="#" type="btn">Забронировать</a>
       </div>
       <div class="founded-types-right">
         <img src="img/catalog/3.png" width="65" height="17" alt="rating">
         <p>Рейтинг 8,9</p>
       </div>
+    </div>
+    <div class="founded-types">
       <div class="founded-types-left">
         <img src="img/catalog/layer 89.jpg"  width="135" height="90" alt="hostle">
-        <h2>Villas at paco diablo</h2>
+        <a href="#"><h2>Villas at paco diablo</h2></a>
         <p>Апартаменты</p>
         <p>от 2000 Р.</p>
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
+        <a href="#" type="btn">Подробнее</a>
+        <a href="#" type="btn">Забронировать</a>
       </div>
       <div class="founded-types-right">
         <img src="img/catalog/2.png" width="42" height="17" alt="rating">
         <p>Рейтинг 2,2</p>
       </div>
       </div>
+    </div>
     </main>
     <footer class="main-footer">
       <div class="container">

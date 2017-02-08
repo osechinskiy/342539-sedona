@@ -5,7 +5,41 @@ body{
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
 }
+h1 {
+  font-size: 21px;
+  line-height: 16px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 21px;
+  line-height: 16px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+.clearfix::after {
+
+  content: "";
+   display: table;
+   clear: both;
+}
 
 .categories {
   background-image: url("../img/catalog/fon.jpg") ;
+}
+
+.container{
+  width: 1280px;
+margin: 0 auto;
+}
+.main-hedder {
+  outline: #00FF00 solid thick;
+
+}
+
+.nav-left{
+  float: left;
+}
+.nav-right{
+  float: right;
 }

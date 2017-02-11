@@ -18,24 +18,40 @@ h2 {
   text-transform: uppercase;
 }
 .clearfix::after {
-
-  content: "";
+  content: " ";
    display: table;
    clear: both;
 }
 
 .categories {
   background-image: url("../img/catalog/fon.jpg") ;
+  outline: green solid thin;
+  height: 219px;
+
 }
 
 .container{
-  width: 1280px;
+  width: 1200px;
 margin: 0 auto;
 }
-.main-hedder {
-  outline: #00FF00 solid thick;
+.navigation-logo{
+  margin: auto;
+  position: absolute;
+  top:-16px;
+  left:525px;
+
 
 }
+.navigation-logo::before {
+  content: "";
+}
+.main-hedder {
+  position: relative;
+  height: 57px;
+  outline: blue solid thin;
+  margin-bottom: 0px;
+}
+
 
 .nav-left{
   float: left;
@@ -43,3 +59,179 @@ margin: 0 auto;
 .nav-right{
   float: right;
 }
+
+.fon-logo{
+  background-image: url("../img/index/fon1.jpg");
+  background-position:0px -55px;
+  outline: green solid thin;
+  height: 726px;
+}
+
+.title-text{
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+    outline: red solid thin;
+    width: 452px;
+    margin-left: 380px;
+    margin-top: 550px;
+}
+.content {
+  height: 1100px;
+  outline: yellow solid thin;
+}
+.futures-left{
+  float: left;
+  width: 400px;
+  height: 256px;
+}
+.futures-right-foto{
+  float: right;
+  width: 800px;
+  height: 256px;
+}
+
+.reasons-item{
+float: left;
+width: 400px;
+height: 256px;
+outline: green solid thin;
+margin-bottom: 75px;
+}
+.futures-left-foto{
+  float: left;
+  width: 800px;
+  height: 256px;
+  outline: green solid thin;
+}
+.futures-right{
+  float: right;
+  width: 400px;
+  height: 256px;
+  outline: green solid thin;
+}
+.hostle {
+  height: 293px;
+  outline: green solid thin;
+}
+.found{
+  width: 575px;
+  height: 398px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: red solid thin;
+}
+.bottom-box{
+  position: relative;
+  height: 596px;
+  outline: green solid thin;
+}
+.map{
+  position: relative;
+height: 479px;
+outline: green solid thin;
+}
+.main-footer{
+  position: absolute;
+  background-color: white;
+   height: 120px;
+   outline: red solid thin;
+   opacity: 0.9;
+
+ }
+ .hashtag{
+   float: left;
+   outline: yellow solid thin;
+ }
+ .footer-social{
+   float: left;
+   outline: yellow solid thin;
+ }
+ .footer-copyright{
+   float: right;
+   outline: yellow solid thin;
+ }
+
+ .sorting{
+height: 539px;
+outline: blue solid thin;
+
+ }
+ .sorting-types{
+   width: 1056px;
+   height: 86px;
+   outline: green solid thin;
+   margin-left: 73px;
+   margin-right: 73px;
+ }
+ .sorting-types-left-1{
+   float: left;
+   width: 138px;
+   height: 86px;
+    outline: green solid thin;
+ }
+ .sorting-types-left-2{
+   float: left;
+   width: 120px;
+   height: 86px;
+    outline: green solid thin;
+ }
+ .sorting-types-left-3{
+   float: left;
+   width: 425px;
+   height: 86px;
+    outline: green solid thin;
+ }
+
+ .sorting-types-right{
+   float: right;
+   height: 86px;
+   width: 241px;
+     outline: green solid thin;
+    margin-top:0;
+ }
+.founded-types{
+  width: 1056px;
+  height: 150px;
+  outline: red solid thin;
+  margin-left: 73px;
+  margin-right: 73px;
+}
+.founded-types-left{
+  float: left;
+  width: 600px;
+  height: 150px;
+  outline: green solid thin;
+}
+.founded-types-right{
+  float: right;
+  height: 150px;
+  width: 241px;
+    outline: green solid thin;
+    margin-top: -5px;
+}
+.categories-box{
+  width: 1056px;
+  height: 218px;
+  outline: green solid thin;
+  margin-left: 73px;
+  margin-right: 73px;
+}
+.selection-box{
+  float: left;
+  width: 241px;
+  height: 218px;
+    outline: green solid thin;
+}
+.selection-box-right{
+  float: right;
+  width: 328px;
+  height: 218px;
+  outline: green solid thin;
+}
+.catalog-footer{
+  width: 1200px;
+  background-color: white;
+   height: 120px;
+   outline: red solid thin;
+ }
